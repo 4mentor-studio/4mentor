@@ -2,6 +2,8 @@
 interface Props {}
 
 const {} = Astro.props;
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 ---
 
 <div class="">
@@ -25,7 +27,7 @@ const {} = Astro.props;
                             </a>
                         </div>
                         <h1 class="mt-10 text-4xl font-roboto tracking-tight text-gray-900 sm:text-6xl">
-                            Improve communication with your customers
+                            {t("home.title")}
                         </h1>
                         <p class="mt-6 text-lg text-gray-600">Anim aute id magna aliqua ad ad non deserunt
                             sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat

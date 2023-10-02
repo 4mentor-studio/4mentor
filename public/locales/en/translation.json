@@ -1,0 +1,58 @@
+{
+    "site": {
+      "title": "Adastra Labs",
+      "description": "Welcome to Adastra, the premier  web development agency specializing exlusively in clinics and healthcare providers. With proven track record in delivering secure, fast and user-friendly websites we understand the unique needs of your business and your patients. Wether you are a small clinic or a large hospital, we have the right solution for you. let us help you grow your business and reach more patients today!"
+    },
+    "home": {
+      "title": "Don't Let Your Clinic's Website Fall Behind",
+      "subtitle": "Expert Web De"
+    },
+
+    "pricing" : {
+        "title": "Pricing adjusted to your needs",
+        "subtitle": "We offer a variety of packages to suit your needs. From simple websites to full-featured patient portals, we have the right solution for you.",
+        "packages": {
+           "basic" :  {
+            "name": "Basic",
+            "price": "$25",
+            "description": "A beautiful website with your clinic's information and contact details.",
+            "period": "month",
+            "features": [
+                "Domain",
+                "SSL Certificate",
+                "1 Change a month",
+                "Website Hosting"
+            ],
+            "cta" : "Get Started"
+            },
+            "standard" :{
+            "name": "Professional",
+            "price": "$49",
+            "description": "A full-featured website with all the information your patients need. Includes all in Basic plus:",
+            "period": "month",
+            "features": [
+                "Blog",
+                "2 Email accounts with your domain",
+                "2 Languages",
+                "3 Changes a month"
+            ],
+             "cta" : "Get Started"
+            },
+            "premium" :{
+            "name": "Premium",
+            "price": "$150",
+            "period": "month",
+            "description": "A full-featured website with all the information your patients need. Includes all in Standard plus:",
+            "features": [
+                "Appointment booking",
+                "Web analytics",
+                "Phone support",
+                "10 changes a month",
+                "5 email accounts"
+            ],
+            "cta" : "Get Started"
+            }
+        }
+        }
+    }
+  
