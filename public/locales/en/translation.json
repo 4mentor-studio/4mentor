@@ -4,13 +4,13 @@
       "description": "Welcome to Adastra, the premier  web development agency specializing exlusively in clinics and healthcare providers. With proven track record in delivering secure, fast and user-friendly websites we understand the unique needs of your business and your patients. Wether you are a small clinic or a large hospital, we have the right solution for you. let us help you grow your business and reach more patients today!"
     },
     "home": {
-      "title": "Don't Let Your Clinic's Website Fall Behind",
-      "subtitle": "Expert Web De"
+      "title": "Don't Let Your Website Fall Behind",
+      "subtitle": "Websites are the first point of contact for most patients. Make sure your website is up to date and easy to use. Let us help you with that."
     },
 
     "pricing" : {
         "title": "Pricing adjusted to your needs",
-        "subtitle": "We offer a variety of packages to suit your needs. From simple websites to full-featured patient portals, we have the right solution for you.",
+        "subtitle": "We offer a variety of packages to suit your needs. From basic websites to a complete solution, we have the right option for you.",
         "packages": {
            "basic" :  {
             "name": "Basic",
@@ -32,7 +32,7 @@
             "period": "month",
             "features": [
                 "Blog",
-                "2 Email accounts with your domain",
+                "2 Email accounts ",
                 "2 Languages",
                 "3 Changes a month"
             ],
@@ -42,9 +42,9 @@
             "name": "Premium",
             "price": "$150",
             "period": "month",
-            "description": "A full-featured website with all the information your patients need. Includes all in Standard plus:",
+            "description": "Our best package for you. Includes all in Professional plus:",
             "features": [
-                "Appointment booking",
+               
                 "Web analytics",
                 "Phone support",
                 "10 changes a month",
@@ -53,6 +53,32 @@
             "cta" : "Get Started"
             }
         }
+        },
+    "signup" : {
+        "form" : {
+            "name" : "Clinic Name",
+            "email" : "Email",
+            "phone" : "Phone",
+            "address" : "Address",
+            "city" : "City",
+            "logo" : "Logo",
+            "province" : "Province",
+            "postal_code" : "Postal Code",
+            "country" : "Country",
+            "information" : "Additional Information",
+            "submit" : "Submit"
+        },
+        "step_1" : {
+            "title" : "Your info",
+            "subtitle" : "Tell us a little bit about yourself."
+            
+        },
+        "step_2" : {
+            "title" : "Your clinic",
+            "subtitle" : "Tell us a little bit about your clinic."
+            
         }
+    }
+    
     }
   

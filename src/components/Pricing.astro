@@ -21,7 +21,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">{t("pricing.subtitle")}</p>
   <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
     <div class="rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 sm:mx-8 lg:mx-0 sm:rounded-t-none lg:rounded-tl-3xl lg:rounded-br-none">
-      <h3 id="tier-team" class="text-base font-semibold leading-7 text-black">{t("pricing.packages.basic.name")}</h3>
+      <h3 id="tier-basic" class="text-base font-semibold leading-7 text-black">{t("pricing.packages.basic.name")}</h3>
       <p class="mt-4 flex items-baseline gap-x-2">
         <span class="text-5xl font-bold tracking-tight text-gray-900">{t("pricing.packages.basic.price")}</span>
         <span class="text-base text-gray-500">/{t("pricing.packages.basic.period")}</span>
@@ -44,7 +44,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   
         </ul>
       </ul>
-      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 text-black hover:text-white hover:bg-black ring-1 ring-inset ring-black hover:ring-black">Get started today</a>
+      <a href="#" aria-describedby="tier-basic" class="mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 text-black hover:text-white hover:bg-black ring-1 ring-inset ring-black hover:ring-black">{t("pricing.packages.basic.cta")}</a>
     </div>
     <div class="rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 relative bg-white shadow-2xl">
       <h3 id="tier-personal" class="text-base font-semibold leading-7 text-black">{t("pricing.packages.standard.name")}</h3> 
@@ -68,9 +68,9 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
        
 
       </ul>
-      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md py-2.5 px-3.5 border border-black text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 bg-black text-white shadow hover:bg-white hover:text-black">Get started today</a>
+      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md py-2.5 px-3.5 border border-black text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 bg-black text-white shadow hover:bg-white hover:text-black">{t("pricing.packages.standard.cta")}</a>
     </div>
-    <div class="rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 sm:mx-8 lg:mx-0 sm:rounded-t-none lg:rounded-tr-3xl lg:rounded-bl-none">
+    <div class="rounded-3xl p-8 ring-1  ring-gray-900/10 sm:p-10 bg-white/60 sm:mx-8 lg:mx-0 sm:rounded-t-none lg:rounded-tr-3xl lg:rounded-bl-none">
       <h3 id="tier-team" class="text-base font-semibold leading-7 text-black">{t("pricing.packages.premium.name")}</h3>
       <p class="mt-4 flex items-baseline gap-x-2"> 
         <span class="text-5xl font-bold tracking-tight text-gray-900">{t("pricing.packages.premium.price")}</span>
@@ -89,7 +89,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
            )  
          })}
       </ul>
-      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 text-black hover:text-white hover:bg-black ring-1 ring-inset ring-black hover:ring-black">Get started today</a>
+      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:mt-10 text-black hover:text-white hover:bg-black ring-1 ring-inset ring-black hover:ring-black">{t("pricing.packages.premium.cta")}</a>
     </div>
   </div>
 </div>
