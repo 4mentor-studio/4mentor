@@ -1,12 +1,41 @@
 {
     "site": {
-      "title": "Adastra Labs",
-      "description": "Welcome to Adastra, the premier  web development agency specializing exlusively in clinics and healthcare providers. With proven track record in delivering secure, fast and user-friendly websites we understand the unique needs of your business and your patients. Wether you are a small clinic or a large hospital, we have the right solution for you. let us help you grow your business and reach more patients today!"
+      "title": "4mentor studio",
+      "description": "Welcome to 4mentor, the premier web development studio specializing exlusively in clinics and healthcare providers. With proven track record in delivering secure, fast and user-friendly websites we understand the unique needs of your business and your patients. Wether you are a small clinic or a large hospital, we have the right solution for you. let us help you grow your business and reach more patients today!"
     },
     "home": {
       "title": "Don't Let Your Website Fall Behind",
-      "subtitle": "Websites are the first point of contact for most patients. Make sure your website is up to date and easy to use. Let us help you with that."
+      "subtitle": "Websites are the first point of contact for most patients. Make sure your website is up to date and easy to use. Let us help you with that.",
+        "cta": "Get Started"
     },
+    "features": {
+        "title": "Everything you need to grow your business",
+        "accent" : "Taylor made for you",
+        "subtitle": "Our web development services are tailored to meet the unique needs of clinics and healthcare providers. From responsive design to SSL certificates, we have everything you need.",
+        "features": {
+           "1":  {
+            "title": "Responsive Design",
+            "description": "Websites are the first point of contact for most patients. Make sure your website is up to date and easy to use. Let us help you with that.",
+            "icon": "responsive"
+            },
+            "4":{ 
+            "title": "SEO",
+            "description": " SEO helps you rank higher in search engines and get more traffic. We offer SEO services for all our websites.",
+            "icon": "seo"
+            },
+            "3":{
+            "title": "Mantainance",
+            "description": "We take care of all the technical details so you can focus on your patients. ",
+            "icon": "analytics"
+            },
+            "2":{
+            "title": "SSL Certificate",
+            "description": "SSL certificates are a must for any website. They protect your patients' data and help you rank higher in search engines. We offer SSL certificates for all our websites. ",
+            "icon": "ssl"
+            }
+        }
+        
+        },
 
     "pricing" : {
         "title": "Pricing adjusted to your needs",
@@ -54,31 +83,51 @@
             }
         }
         },
-    "signup" : {
-        "form" : {
-            "name" : "Clinic Name",
-            "email" : "Email",
-            "phone" : "Phone",
-            "address" : "Address",
-            "city" : "City",
-            "logo" : "Logo",
-            "province" : "Province",
-            "postal_code" : "Postal Code",
-            "country" : "Country",
-            "information" : "Additional Information",
-            "submit" : "Submit"
-        },
-        "step_1" : {
-            "title" : "Your info",
-            "subtitle" : "Tell us a little bit about yourself."
-            
-        },
-        "step_2" : {
-            "title" : "Your clinic",
-            "subtitle" : "Tell us a little bit about your clinic."
-            
+
+    "contact": {},
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Let us help you grow your business and reach more patients today!",
+      "button": "Get Started"
+    },
+    "testimonial" : {
+        "text" : "4mentor helped me build my first website. They were very professional and easy to work with. I would recommend them to anyone looking for a web developer.",
+        "author" : "Alexandra Ivanova",
+        "title" : "Nutritionist"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Here are some of our most frequently asked questions. If you have other questions, please feel free to contact us.",
+        "questions": [
+            {
+            "question": "How long does it take to build a website?",
+            "answer": "It depends on the complexity of the website. A basic website can be built in a few days, while a more complex website can take a few weeks. We will work with you to determine the best timeline for your project."
+            },
+            {
+            "question": "How much does it cost to build a website?",
+            "answer": "It depends on the complexity of the website. A basic website can be built in a few days, while a more complex website can take a few weeks. We will work with you to determine the best timeline for your project."
+            },
+            {
+            "question": "Do you offer hosting services?",
+            "answer": "Yes, we offer hosting services for all our websites. We also offer domain registration and SSL certificates."
+            },
+            {
+            "question": "Do you offer support?",
+            "answer": "Yes, we offer support for all our websites. We also offer domain registration and SSL certificates."
+            },
+            {
+            "question": "Do you offer SEO services?",
+            "answer": "Yes, we offer SEO services for all our websites. We also offer domain registration and SSL certificates."
+            },
+            {
+            "question": "Do you offer maintenance services?",
+            "answer": "Yes, we offer maintenance services for all our websites. We also offer domain registration and SSL certificates."
+            }
+        ]
         }
     }
     
-    }
+    
+    
+    
   
