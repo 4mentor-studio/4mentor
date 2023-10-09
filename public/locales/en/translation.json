@@ -8,6 +8,11 @@
       "subtitle": "Websites are the first point of contact for most patients. Make sure your website is up to date and easy to use. Let us help you with that.",
         "cta": "Get Started"
     },
+    "nav" : {
+        "features" : "Features",
+        "contact" : "Contact",
+        "blog" : "Blog"
+    },
     "features": {
         "title": "Everything you need to grow your business",
         "accent" : "Taylor made for you",
