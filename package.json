@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npx astro-i18next generate && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro" 
   },
   "dependencies": {
     "@astrojs/react": "^3.0.4",
