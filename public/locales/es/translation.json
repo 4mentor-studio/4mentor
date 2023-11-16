@@ -1,0 +1,129 @@
+{
+    "site": {
+        "title": "4mentor studio",
+        "description": "Bienvenido a 4mentor, el principal estudio de desarrollo web especializado exclusivamente en clínicas y proveedores de atención médica. Con un historial probado en la entrega de sitios web seguros, rápidos y fáciles de usar, entendemos las necesidades únicas de su negocio y sus pacientes. Ya sea que tenga una pequeña clínica o un gran hospital, tenemos la solución adecuada para usted. Permítanos ayudarle a crecer su negocio y alcanzar más pacientes hoy!"
+    },
+    "home": {
+        "title": "No dejes que tu sitio web se quede atrás",
+        "subtitle": "Los sitios web son el primer punto de contacto para la mayoría de los pacientes. Asegúrese de que su sitio web esté actualizado y sea fácil de usar. Déjenos ayudarle con eso.",
+        "cta": "Comenzar"
+    },
+    "nav": {
+        "features": "Características",
+        "contact": "Contacto",
+        "blog": "Blog"
+    },
+    "features": {
+        "title": "Todo lo que necesitas para hacer crecer tu negocio",
+        "accent": "Hecho a medida para ti",
+        "subtitle": "Nuestros servicios de desarrollo web están diseñados para satisfacer las necesidades únicas de clínicas y proveedores de atención médica. Desde diseño adaptable hasta certificados SSL, tenemos todo lo que necesita.",
+        "features": {
+            "1": {
+                "title": "Diseño Adaptable",
+                "description": "Los sitios web son el primer punto de contacto para la mayoría de los pacientes. Asegúrese de que su sitio web esté actualizado y sea fácil de usar. Déjenos ayudarle con eso.",
+                "icon": "responsive"
+            },
+            "4": {
+                "title": "SEO",
+                "description": "El SEO le ayuda a clasificar más alto en los motores de búsqueda y obtener más tráfico. Ofrecemos servicios de SEO para todos nuestros sitios web.",
+                "icon": "seo"
+            },
+            "3": {
+                "title": "Mantenimiento",
+                "description": "Nos ocupamos de todos los detalles técnicos para que pueda concentrarse en sus pacientes.",
+                "icon": "analytics"
+            },
+            "2": {
+                "title": "Certificado SSL",
+                "description": "Los certificados SSL son imprescindibles para cualquier sitio web. Protegen los datos de sus pacientes y le ayudan a clasificar más alto en los motores de búsqueda. Ofrecemos certificados SSL para todos nuestros sitios web.",
+                "icon": "ssl"
+            }
+        }
+    },
+    "pricing": {
+        "title": "Precios ajustados a sus necesidades",
+        "subtitle": "Ofrecemos una variedad de paquetes para satisfacer sus necesidades. Desde sitios web básicos hasta una solución completa, tenemos la opción adecuada para usted.",
+        "packages": {
+            "basic": {
+                "name": "Básico",
+                "price": "$25",
+                "description": "Un sitio web hermoso con la información y detalles de contacto de su clínica.",
+                "period": "mes",
+                "features": [
+                    "Dominio",
+                    "Certificado SSL",
+                    "1 Cambio al mes",
+                    "Alojamiento web"
+                ],
+                "cta": "Comenzar"
+            },
+            "standard": {
+                "name": "Profesional",
+                "price": "$49",
+                "description": "Un sitio web con todas las características que sus pacientes necesitan. Incluye todo en Básico más:",
+                "period": "mes",
+                "features": [
+                    "Blog",
+                    "2 cuentas de correo",
+                    "2 idiomas",
+                    "3 cambios al mes"
+                ],
+                "cta": "Comenzar"
+            },
+            "premium": {
+                "name": "Premium",
+                "price": "$150",
+                "period": "mes",
+                "description": "Nuestro mejor paquete para usted. Incluye todo en Profesional más:",
+                "features": ["Análisis web",
+                "Soporte telefónico",
+                "10 cambios al mes",
+                "5 cuentas de correo"
+            ],
+            "cta": "Comenzar"
+        }
+    }
+},
+"contact": {},
+"cta": {
+    "title": "¿Listo para comenzar?",
+    "subtitle": "Déjenos ayudarle a hacer crecer su negocio",
+    "button": "Empecemos!"
+},
+"testimonial" : {
+    "text" : "4mentor helped me build my first website. They were very professional and easy to work with. I would recommend them to anyone looking for a web developer.",
+    "author" : "Alexandra Ivanova",
+    "title" : "Nutritionist"
+},
+"faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Here are some of our most frequently asked questions. If you have other questions, please feel free to contact us.",
+    "questions": [
+        {
+        "question": "How long does it take to build a website?",
+        "answer": "It depends on the complexity of the website. A basic website can be built in a few days, while a more complex website can take a few weeks. We will work with you to determine the best timeline for your project."
+        },
+        {
+        "question": "How much does it cost to build a website?",
+        "answer": "It depends on the complexity of the website. A basic website can be built in a few days, while a more complex website can take a few weeks. We will work with you to determine the best timeline for your project."
+        },
+        {
+        "question": "Do you offer hosting services?",
+        "answer": "Yes, we offer hosting services for all our websites. We also offer domain registration and SSL certificates."
+        },
+        {
+        "question": "Do you offer support?",
+        "answer": "Yes, we offer support for all our websites. We also offer domain registration and SSL certificates."
+        },
+        {
+        "question": "Do you offer SEO services?",
+        "answer": "Yes, we offer SEO services for all our websites. We also offer domain registration and SSL certificates."
+        },
+        {
+        "question": "Do you offer maintenance services?",
+        "answer": "Yes, we offer maintenance services for all our websites. We also offer domain registration and SSL certificates."
+        }
+    ]
+    }
+}
+
