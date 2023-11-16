@@ -71,7 +71,9 @@ const StepThreeForm = ({ formData, setFormData, nextStep, prevStep }) => {
     };
   
     return (
-      <div className="transition-all duration-500 ease-in-out">
+      <div className="w-full">
+        <h2 className="text-2xl font-semibold pb-4">Clinic Information</h2>
+        <div className='flex flex-col space-y-4'>
         <textarea
           className={`border-2 rounded-lg p-4 text-lg ${errors.payment_info ? 'border-red-500' : 'border-gray-200'}`}
           placeholder="Payment Information"
@@ -127,6 +129,7 @@ Add Staff Member
 >
   Next
 </button>
+</div>
 </div>
 </div>
 );

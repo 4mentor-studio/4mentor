@@ -19,7 +19,9 @@ const StepFiveForm = ({ formData, prevStep, submitForm }) => {
     };
   
     return (
-      <div className="transition-all duration-500 ease-in-out">
+      <div className="w-full">
+        <h2 className="text-2xl font-semibold pb-4">Clinic Information</h2>
+        <div className='flex flex-col space-y-4'>
         {renderReviewSection('Clinic Name', formData.name)}
         {renderReviewSection("Responsible Person's Name", formData.responsible_person)}
         {renderReviewSection('Email Address', formData.email)}
@@ -50,6 +52,7 @@ const StepFiveForm = ({ formData, prevStep, submitForm }) => {
           >
             Submit
           </button>
+          </div>
         </div>
       </div>
     );

@@ -57,7 +57,7 @@ const FormComponent = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen mx-auto sm:w-full md:w-3/4">
+        <div className="flex justify-center items-center  mx-auto sm:w-full md:w-3/4">
         {currentStep === 1 && <StepOneForm client:load formData={formData} setFormData={setFormData} nextStep={nextStep} />}
         {currentStep === 2 && <StepTwoForm client:load formData={formData} setFormData={setFormData} nextStep={nextStep} prevStep={prevStep}/>}
         {currentStep == 3 && <StepThreeForm client:load formData={formData} setFormData={setFormData} nextStep={nextStep} prevStep={prevStep}/>}

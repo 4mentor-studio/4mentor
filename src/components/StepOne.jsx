@@ -30,7 +30,9 @@ const StepOneForm = ({ formData, setFormData, nextStep }) => {
   };
 
   return (
-    <div className="transition-all duration-500 ease-in-out">
+    <div className="w-full">
+        <h2 className="text-2xl font-semibold pb-4">Clinic Information</h2>
+        <div className='flex flex-col space-y-4'>
       <input
         className={`border-2 rounded-lg p-4 text-lg ${errors.name ? 'border-red-500' : 'border-gray-200'}`}
         type="text"
@@ -68,11 +70,12 @@ const StepOneForm = ({ formData, setFormData, nextStep }) => {
       {renderError('phone')}
 
       <button
-        className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-200"
+        className="rounded-md bg-white border border-black px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-2/3"
         onClick={handleNext}
       >
         Next
       </button>
+      </div>
     </div>
   );
 };
