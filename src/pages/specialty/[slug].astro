@@ -105,9 +105,9 @@ import i18next, { t } from "i18next";
                             >{t("nav.blog")}</a
                         >
                     </div>
-                    <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-          </div> -->
+                    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="/signup" class="text-sm font-semibold leading-6 text-gray-900">Get you web <span aria-hidden="true">&rarr;</span></a>
+          </div> 
                 </nav>
                 <!-- Mobile menu, show/hide based on menu open state. -->
                 <div
@@ -171,12 +171,12 @@ import i18next, { t } from "i18next";
                                         >{t("nav.blog")}</a
                                     >
                                 </div>
-                                <!-- <div class="py-6">
-                  <a href="/login"
+                                 <div class="py-6">
+                  <a href="/signup"
                      class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                    Log in
+                    Get your web
                   </a>
-                </div> -->
+                </div> 
                             </div>
                         </div>
                     </div>
@@ -241,15 +241,15 @@ import i18next, { t } from "i18next";
             </main>
 
             <script>
-                const navBar: HTMLElement = document.getElementById("navBar");
+                const navBar: HTMLElement | null = document.getElementById("navBar");
                 const closeNavBar = document.getElementById("closeNavBar");
                 const openNavBar = document.getElementById("openNavBar");
 
-                closeNavBar.addEventListener("click", toggleMenu);
-                openNavBar.addEventListener("click", toggleMenu);
+                closeNavBar?.addEventListener("click", toggleMenu);
+                openNavBar?.addEventListener("click", toggleMenu);
 
                 function toggleMenu() {
-                    navBar.classList.toggle("hidden");
+                    navBar?.classList.toggle("hidden");
                 }
             </script>
         </div></body>
