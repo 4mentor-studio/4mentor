@@ -1,6 +1,6 @@
 ---
 interface Props {}
-
+import Image from "astro/components/Image.astro.jsx";
 const {} = Astro.props;
 import i18next, { t } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
@@ -45,27 +45,9 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
             <div class="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen relative">
                 <img class="rounded-xl"
                      src="./hero.png"/>
-                <div class="absolute top-0 right-0 rounded-bl-xl p-6 bg-gray-50">
-                    <svg class="h-2 w-2 inline fill-black mr-2" viewBox="0 0 6 6" aria-hidden="true">
-                        <circle cx="3" cy="3" r="3"/>
-                    </svg>
-                    <svg class="h-2 w-2 inline fill-gray-300 mr-2" viewBox="0 0 6 6" aria-hidden="true">
-                        <circle cx="3" cy="3" r="3"/>
-                    </svg>
-                    <svg class="h-2 w-2 inline fill-gray-300 mr-2" viewBox="0 0 6 6" aria-hidden="true">
-                        <circle cx="3" cy="3" r="3"/>
-                    </svg>
-                </div>
+                
 
-                <div class="absolute bottom-0 right-0 rounded-full m-6 pl-1 pr-4 py-1 bg-black bg-opacity-75 flex items-center">
-                    <img class="inline mr-2 h-9 w-9 rounded-full"
-                         src="./avatar.jpeg"
-                         alt="">
-                    <div class="flex flex-col">
-                        <span class="text-white text-sm font-roboto">Edgar Alejandro</span>
-                        <span class="text-gray-200 text-xs font-nunito">Software developer</span>
-                    </div>
-                </div>
+                
 
             </div>
 

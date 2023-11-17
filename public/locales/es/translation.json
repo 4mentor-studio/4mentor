@@ -113,15 +113,15 @@
         },
         {
         "question": "Do you offer support?",
-        "answer": "Yes, we offer support for all our websites. We also offer domain registration and SSL certificates."
+        "answer": "Yes, we offer support for all our websites. "
         },
         {
         "question": "Do you offer SEO services?",
-        "answer": "Yes, we offer SEO services for all our websites. We also offer domain registration and SSL certificates."
+        "answer": "Yes, we offer SEO services for all our websites."
         },
         {
         "question": "Do you offer maintenance services?",
-        "answer": "Yes, we offer maintenance services for all our websites. We also offer domain registration and SSL certificates."
+        "answer": "Yes, we offer maintenance services for all our websites. "
         }
     ]
     }
