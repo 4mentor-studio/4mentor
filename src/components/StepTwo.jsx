@@ -61,15 +61,15 @@ const StepTwoForm = ({ formData, setFormData, nextStep, prevStep }) => {
         />
         {renderError('services')}
   
-        <div className="flex justify-between">
+        <div className="flex justify-between space-x-4">
           <button
-            className="bg-gray-300 text-black font-bold py-2 px-4 rounded-lg hover:bg-gray-400 transition duration-200"
+            className="rounded-md bg-white border border-black px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-2/4"
             onClick={handlePrevious}
           >
             Previous
           </button>
           <button
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-200"
+            className="rounded-md bg-white border border-black px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-2/4"
             onClick={handleNext}
           >
             Next

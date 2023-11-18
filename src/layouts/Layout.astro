@@ -6,9 +6,11 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 interface Props {
   title: string;
+  navigation:boolean;
 }
 
 const {title} = Astro.props;
+const {navigation} = Astro.props;
 ---
 <!DOCTYPE html>
 <html class="h-full bg-gray-50" lang={i18next.language}>
@@ -46,7 +48,7 @@ const {title} = Astro.props;
           " alt="Logo">
         </a>
       </div>
-      <div id="openNavBar" class="flex lg:hidden">
+      {navigation && (<div id="openNavBar" class="flex lg:hidden">
         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
           <span class="sr-only">Open main menu</span>
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -63,9 +65,11 @@ const {title} = Astro.props;
       </div>
        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="/signup" class="text-sm font-semibold leading-6 text-gray-900">Get your web <span aria-hidden="true">&rarr;</span></a>
-      </div> 
+      </div> )}
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
+    
+    {navigation && (
     <div id="navBar" class="hidden lg:hidden" role="dialog" aria-modal="true">
       <!-- Background backdrop, show/hide based on slide-over state. -->
       <div class="fixed inset-0 z-50"></div>
@@ -105,7 +109,7 @@ const {title} = Astro.props;
           </div>
         </div>
       </div>
-    </div>
+    </div>)}
   </header>
 
   <main class="isolate">
